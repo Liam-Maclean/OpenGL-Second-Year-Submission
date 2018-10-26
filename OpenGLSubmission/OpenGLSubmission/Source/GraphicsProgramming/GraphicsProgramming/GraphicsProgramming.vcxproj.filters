@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\PrimativeHeaders">
+      <UniqueIdentifier>{e61b3d9e-8c19-4e42-8bec-0b63e89c6f58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PrimativeCPP">
+      <UniqueIdentifier>{0d2d3bf1-37a5-4c70-818f-79854943801c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PrimativeShape.cpp">
+      <Filter>Source Files\PrimativeCPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Cube.cpp">
+      <Filter>Source Files\PrimativeCPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Plane.cpp">
+      <Filter>Source Files\PrimativeCPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Disc.cpp">
+      <Filter>Source Files\PrimativeCPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CircularShape.cpp">
+      <Filter>Source Files\PrimativeCPP</Filter>
+    </ClCompile>
+    <ClCompile Include="IcoSphere.cpp">
+      <Filter>Source Files\PrimativeCPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Sphere.cpp">
+      <Filter>Source Files\PrimativeCPP</Filter>
+    </ClCompile>
+    <ClCompile Include="ImportedModel.cpp">
+      <Filter>Source Files\PrimativeCPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QuadStrip.cpp">
+      <Filter>Source Files\PrimativeCPP</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Scene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CubeGen.h">
+      <Filter>Header Files\PrimativeHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="PrimativeShape.h">
+      <Filter>Header Files\PrimativeHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Cube.h">
+      <Filter>Header Files\PrimativeHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Plane.h">
+      <Filter>Header Files\PrimativeHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Disc.h">
+      <Filter>Header Files\PrimativeHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="CircularShape.h">
+      <Filter>Header Files\PrimativeHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="IcoSphere.h">
+      <Filter>Header Files\PrimativeHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Sphere.h">
+      <Filter>Header Files\PrimativeHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="ImportedModel.h">
+      <Filter>Header Files\PrimativeHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QuadStrip.h">
+      <Filter>Header Files\PrimativeHeaders</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
